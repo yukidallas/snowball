@@ -1,0 +1,11 @@
+default: &default
+  adapter: sqlite3
+  encoding: utf8
+
+production:
+  <<: *default
+  database: db/users_production.sqlite3
+
+development:
+  <<: *default
+  database: db/users_development.sqlite3
