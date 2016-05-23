@@ -3,7 +3,6 @@ module Snowball
     include Config
     include Client
     include Logging
-    # include Talk
     include Streaming
 
     alias :slack :slack_client

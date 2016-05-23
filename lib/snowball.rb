@@ -17,7 +17,6 @@ module Snowball
     require_relative "logging"
     require_relative "tweet"
     require_relative "streaming"
-    require_relative "talk"
     require_relative "slack_actions"
 
     require_relative "slackbot"
